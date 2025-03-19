@@ -69,7 +69,7 @@
             rollDiceAnimation(() => {
                 setTimeout(() => {
                     const index = Math.floor(Math.random() * urls.length);
-                    window.location.href = urls[index];
+                    window.open(urls[index], "_blank");
                 }, 2000);
             });
         }
